@@ -1,0 +1,4 @@
+framework module Event24By7 {
+  header "Event24By7-Swift.h"
+  requires objc
+}
