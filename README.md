@@ -25,5 +25,6 @@ Steps to run
 3. Run Example_24By7Event On physical device (Note:As of now, framework is not supported to simulator)
 
 
-Note : Before uploading app to app store please disable bitcode in your project 
-1. Select your project targate -> Build setting -> Enable bitcode -> No
+Note : 1.   If you are facing issue while integrate SDK, please find attached screenshot 
+       2.   Before uploading app to app store please disable bitcode in your project 
+       2.1. Select your project targate -> Build setting -> Enable bitcode -> No
