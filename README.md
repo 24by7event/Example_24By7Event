@@ -1,4 +1,4 @@
-# Example_24By7Event
+# Example_24By7Event (You can able to see your live stream)
 
 Go live with 24by7Event.
 
@@ -9,6 +9,7 @@ you more control than ever
 You can get your license key by filling the below form
 
 LINK : https://forms.gle/rtunnsZ7m7ayy3id9
+
 
 Steps to run
 
