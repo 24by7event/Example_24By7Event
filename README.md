@@ -2,19 +2,13 @@
 
 Go live with 24by7Event.
 
-
-
 Confidently broadcast high-quality video to your viewers with a live streaming platform that gives
 you more control than ever
 
 
-How to get product id 
-
-
-Please fill this form to get your product id
+You can get your license key by filling the below form
 
 LINK : https://forms.gle/rtunnsZ7m7ayy3id9
-
 
 Steps to run
 
