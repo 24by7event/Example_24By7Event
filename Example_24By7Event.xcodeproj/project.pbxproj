@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C77D10A727B7C2E300740151 /* Event24By7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77D10A527B7C20000740151 /* Event24By7.framework */; platformFilter = ios; };
+		C77D10A827B7C2E300740151 /* Event24By7.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C77D10A527B7C20000740151 /* Event24By7.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C79A014D2776D38A00D35E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79A014C2776D38A00D35E5A /* AppDelegate.swift */; };
 		C79A01512776D38A00D35E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79A01502776D38A00D35E5A /* ViewController.swift */; };
 		C79A01542776D38A00D35E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79A01522776D38A00D35E5A /* Main.storyboard */; };
 		C79A01562776D38C00D35E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79A01552776D38C00D35E5A /* Assets.xcassets */; };
 		C79A01592776D38C00D35E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79A01572776D38C00D35E5A /* LaunchScreen.storyboard */; };
-		C7BB77CD2776E0A0001B2B56 /* Event24By7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C738E18C2776DF3B00705BA2 /* Event24By7.framework */; platformFilter = ios; };
-		C7BB77CE2776E0A0001B2B56 /* Event24By7.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C738E18C2776DF3B00705BA2 /* Event24By7.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C7BB77CF2776E0A0001B2B56 /* Embed Frameworks */ = {
+		C77D10A927B7C2E300740151 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C7BB77CE2776E0A0001B2B56 /* Event24By7.framework in Embed Frameworks */,
+				C77D10A827B7C2E300740151 /* Event24By7.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C738E18C2776DF3B00705BA2 /* Event24By7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Event24By7.framework; sourceTree = "<group>"; };
+		C77D10A527B7C20000740151 /* Event24By7.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Event24By7.framework; sourceTree = "<group>"; };
 		C79A01492776D38A00D35E5A /* Example_24By7Event.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example_24By7Event.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79A014C2776D38A00D35E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C79A01502776D38A00D35E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7BB77CD2776E0A0001B2B56 /* Event24By7.framework in Frameworks */,
+				C77D10A727B7C2E300740151 /* Event24By7.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		C738E18B2776DF3B00705BA2 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				C738E18C2776DF3B00705BA2 /* Event24By7.framework */,
+				C77D10A527B7C20000740151 /* Event24By7.framework */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 				C79A01452776D38A00D35E5A /* Sources */,
 				C79A01462776D38A00D35E5A /* Frameworks */,
 				C79A01472776D38A00D35E5A /* Resources */,
-				C7BB77CF2776E0A0001B2B56 /* Embed Frameworks */,
+				C77D10A927B7C2E300740151 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

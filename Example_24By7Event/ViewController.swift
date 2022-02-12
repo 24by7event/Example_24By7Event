@@ -17,8 +17,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //
-        // Replace your product id here.
-        Event24By7.shared.setup("ZGQxX2dtYWlsX2NvbQ==") { response in
+        // Replace your license Key here.
+        
+        Event24By7.shared.receiverSetUp("bW92aWVzM19nX2NvbQ==") { response in
             print("\(response?["message"])")
             if let dataDO = response?["data"] as? [String: Any] , let url = dataDO["streamUrl"] as? String{
                 let videoUrl = URL(string: url)
